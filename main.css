@@ -197,6 +197,12 @@ footer .contact-link a:hover {
  @media (max-width: 800px) {
  .container td:nth-child(4),
  .container th:nth-child(4) { display: none; }
+ .logo {  
+     width: 60px;    
+     /*margin-left: 0;
+     margin-right: 0;*/
+     margin: 0 46%;
+ }
 
  .container {
   text-align: left;
@@ -216,8 +222,13 @@ padding-left:2%;
   font-size: smaller;
 }
 }
-@media (max-width: 500px) {  
-  .item1, .item2 {
-    font-size: 0.8rem;
+@media (max-width: 500px) { 
+     .logo {  
+          width: 60px;         
+          margin: 0 44%;
+      }
+      
+     .item1, .item2 {
+          font-size: 0.8rem;
   }
   }
