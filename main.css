@@ -19,10 +19,13 @@ body {
      background-image: url(./img/bolas.png);
 } 
 .logo {  
-     width: 60px;    
-     /*margin-left: 0;
-     margin-right: 0;*/
-     margin: 0 48%;
+     width: 100px;
+     
+     
+    
+     margin: 0 47%;
+     border-radius: 6%;
+    
 } 
 h1 {
     font-family: "Russo One", serif;
@@ -116,6 +119,11 @@ h2 a {
 .container tr:nth-child(even) {
      background-color: #4e80f5;
 }*/
+
+.linkeo {
+     text-decoration: none;
+     color: white;
+}
  
 .container th {
      background-color: #1F2739;
@@ -146,10 +154,10 @@ h2 a {
  }
 
 
- td {
-    display: flex;    
-    align-items: center; /* Alinea verticalmente los elementos */
-    gap: 10px; /* Espacio entre los elementos */
+td {
+     display: flex;    
+     align-items: center; /* Alinea verticalmente los elementos */
+     gap: 10px; /* Espacio entre los elementos */
 }
 
 .item1 {
@@ -178,12 +186,16 @@ footer .contact-link {
 footer .contact-link:hover {
      color: #FB667A;
 }
- 
+@media (max-width: 1200px) {
+.logo {
+     margin: 0 45%;
+     }
+} 
 @media (max-width: 800px) {
 .container td:nth-child(4),
 .container th:nth-child(4) { display: none; }
 .logo {
-     width: 60px;     
+     width: 70px;     
      margin: 0 46%;
 }
 .container {
@@ -204,12 +216,11 @@ footer .contact-link:hover {
      }
 }
 @media (max-width: 500px) { 
-     .logo {  
-          width: 60px;         
+     .logo {         
           margin: 0 44%;
      }      
      .item1, .item2 {
-          font-size: 0.8rem;
+          font-size: 0.9rem;
      }
      footer {
           padding-top: 10px;
