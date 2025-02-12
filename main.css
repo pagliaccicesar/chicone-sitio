@@ -217,7 +217,7 @@ footer .contact-link:hover {
 }
 @media (max-width: 500px) { 
      .logo {         
-          margin: 0 44%;
+          margin: 0 43%;
      }      
      .item1, .item2 {
           font-size: 0.9rem;
