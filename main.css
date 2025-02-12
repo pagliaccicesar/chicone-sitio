@@ -42,9 +42,8 @@ h2 {
     font-weight: 600;
     text-align: center;
     display: block;
-    line-height: 1em;
-    /*padding-bottom: 0.5em;*/
-    color: greenyellow;
+    line-height: 1em;   
+    color: rgb(145, 255, 0);
 } 
 h2 a {
     font-weight: 700;
@@ -82,37 +81,37 @@ h2 a {
      padding-left:15px;  
 } 
 .container tr #cuadro-1 {
-     background-color: rgb(255, 162, 0);
+     background-color: #F5C501;
 }
 .container tr #cuadro-2 {
-     background-color: red;
+     background-color: #DB440F;
 }
 .container tr #cuadro-3 {
-     background-color: rgb(65, 6, 243);
+     background-color: #BB1C00;
 }
 .container tr #cuadro-4 {
-     background-color: rgb(140, 0, 255);
+     background-color: #9B4924;
 }
 .container tr #cuadro-5 {
-     background-color: rgb(242, 255, 0);
+     background-color: #0F85A9;
 }
 .container tr #cuadro-6 {
-     background-color: rgb(1, 228, 9);
+     background-color: #012B37;
 }
 .container tr #cuadro-7 {
-     background-color: rgb(38, 1, 68);
+     background-color: #F5C501;
 }
 .container tr #cuadro-8 {
-     background-color: red;
-}
-.container tr #cuadro-9 {
      background-color: rgb(3, 104, 57);
 }
+.container tr #cuadro-9 {
+     background-color: #BB1C00;
+}
 .container tr #cuadro-10 {
-     background-color: rgb(0, 110, 255);
+     background-color: #DB440F;
 }
 .container tr #cuadro-11 {
-     background-color: red;
+     background-color: #0F85A9;
 }
 /*.container tr:nth-child(odd) {
      background-color: #ef47d0;
