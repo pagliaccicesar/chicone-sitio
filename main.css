@@ -11,21 +11,23 @@
 /*html {
      background-color: aliceblue;
 }*/
+html {
+     background-image: url(./img/bolas.png);
+     
+}
 body { 
-     /*width: 100%;*/
+     width: 100%;
      font-family: poppins, sans-serif;
      font-weight: 300;   
      line-height: 0.1em;   
-     background-image: url(./img/bolas.png);
+     
 } 
-.logo {  
-     width: 100px;
-     
-     
-    
-     margin: 0 47%;
-     border-radius: 6%;
-    
+.logo img {  
+     display: grid;
+     place-items: center;
+     margin: 0 auto;
+     width: 100px;   
+     border-radius: 6%;    
 } 
 h1 {
     font-family: "Russo One", serif;
@@ -58,8 +60,7 @@ h2 a {
      font-size: 1em;
      text-align: left;
      color: #185875;
-}
- 
+} 
 .container td {
      font-weight: normal;
      font-size: 1em;
@@ -67,7 +68,7 @@ h2 a {
      -moz-box-shadow: 0 2px 2px -2px #0E1119;
      box-shadow: 0 2px 2px -2px #0E1119;
 } 
-.container {
+.container {     
      text-align: left;
      overflow: hidden;
      width: 40%;
@@ -186,17 +187,11 @@ footer .contact-link {
 footer .contact-link:hover {
      color: #FB667A;
 }
-@media (max-width: 1200px) {
-.logo {
-     margin: 0 45%;
-     }
-} 
 @media (max-width: 800px) {
 .container td:nth-child(4),
 .container th:nth-child(4) { display: none; }
-.logo {
-     width: 70px;     
-     margin: 0 46%;
+.logo img {
+     width: 70px;   
 }
 .container {
      text-align: left;
@@ -215,10 +210,7 @@ footer .contact-link:hover {
      font-size: smaller;
      }
 }
-@media (max-width: 500px) { 
-     .logo {         
-          margin: 0 43%;
-     }      
+@media (max-width: 500px) {          
      .item1, .item2 {
           font-size: 0.9rem;
      }
