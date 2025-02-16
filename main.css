@@ -132,7 +132,7 @@ h2 {
 .container td:hover {     
      color: none;
      font-weight: bold;
-     box-shadow: #012B37 -1px 1px, #012B37 -2px 2px, #012B37 -3px 3px, #012B37 -4px 4px, #012B37 -5px 5px, #012B37 -6px 6px;    
+     box-shadow: #525253 -1px 1px, #525253 -2px 2px, #525253 -3px 3px, #525253 -4px 4px, #525253 -5px 5px, #525253 -6px 6px;    
      transform: translate3d(6px, -6px, 0);      
      transition-delay: 0s;
      transition-duration: 0.4s;
