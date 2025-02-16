@@ -6,15 +6,13 @@
      background-color: aliceblue;
 }*/
 html {
-     background-image: url(./img/bolas.png);
-     
+     background-image: url(./img/bolas.png);     
 }
 body { 
      width: 100%;
      font-family: poppins, sans-serif;
      font-weight: 300;   
-     line-height: 0.1em;   
-     
+     line-height: 0.1em;     
 } 
 .logo img {  
      display: grid;
@@ -37,11 +35,11 @@ h2 {
     text-align: center;
     display: block;
     line-height: 1em;   
-    color: rgb(145, 255, 0);
+    color: white;
 
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    /*text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
      -webkit-text-fill-color: white;
-     -webkit-text-stroke: 1px green;   
+     -webkit-text-stroke: 1px green;   */
 }
 .container th h1 {
      font-weight: bold;
@@ -52,9 +50,9 @@ h2 {
      margin-bottom: 15px; 
      font-weight: normal;
      font-size: 1em;
-     -webkit-box-shadow: 0 2px 2px -2px #0E1119;
-     -moz-box-shadow: 0 2px 2px -2px #0E1119;
-     box-shadow: 0 2px 2px -2px #0E1119;
+     -webkit-box-shadow: 0 2px 2px -2px #012B37;
+     -moz-box-shadow: 0 2px 2px -2px #012B37;
+     box-shadow: 0 2px 2px -2px #012B37;
 } 
 .container {     
      text-align: left;
@@ -67,41 +65,44 @@ h2 {
 .container td, .container th {
      padding-bottom: 2%;
      padding-top: 2%;
-     padding-left:15px;
-     
+     padding-left:15px;     
 }
 .container tr #cuadro-1 {
-     background-color: #F5C501;   
+     background-color: #012B37;
+     /*background-color: #F5C501;   */
 }
 .container tr #cuadro-2 {
-     background-color: #DB440F;
+     /*background-color: #DB440F;*/
+     background-color: #012B37;
 }
 .container tr #cuadro-3 {
-     background-color: #BB1C00;
+     background-color: #012B37;
+     /*background-color: #BB1C00;*/
 }
 .container tr #cuadro-4 {
-     background-color: #9B4924;
+     background-color: #012B37;
+     /*background-color: #9B4924;*/
 }
 .container tr #cuadro-5 {
-     background-color: #0F85A9;
+     background-color: #012B37;
 }
 .container tr #cuadro-6 {
      background-color: #012B37;
 }
 .container tr #cuadro-7 {
-     background-color: #F5C501;
+     background-color: #012B37;
 }
 .container tr #cuadro-8 {
-     background-color: rgb(3, 104, 57);
+     background-color: #012B37;
 }
 .container tr #cuadro-9 {
-     background-color: #BB1C00;
+     background-color: #012B37;
 }
 .container tr #cuadro-10 {
-     background-color: #DB440F;
+     background-color: #012B37;
 }
 .container tr #cuadro-11 {
-     background-color: #0F85A9;
+     background-color: #012B37;
 }
 /*.container tr:nth-child(odd) {
      background-color: #ef47d0;
@@ -113,15 +114,13 @@ h2 {
 .linkeo {
      text-decoration: none;
      color: white;
-}
- 
+} 
 .container th {
      background-color: #1F2739;
 }
 .container tr {
     gap:  25px;
-}
- 
+} 
 .container td:first-child { color: white; }
  
 /*.container tr:hover {
@@ -129,38 +128,31 @@ h2 {
      -webkit-box-shadow: 0 6px 6px -6px #0E1119;
         -moz-box-shadow: 0 6px 6px -6px #0E1119;
              box-shadow: 0 6px 6px -6px #0E1119;
-}*/
- 
+}*/ 
 .container td:hover {     
      color: none;
      font-weight: bold;
-     box-shadow: black -1px 1px, black -2px 2px, black -3px 3px, black -4px 4px, black -5px 5px, black -6px 6px;    
+     box-shadow: #012B37 -1px 1px, #012B37 -2px 2px, #012B37 -3px 3px, #012B37 -4px 4px, #012B37 -5px 5px, #012B37 -6px 6px;    
      transform: translate3d(6px, -6px, 0);      
      transition-delay: 0s;
      transition-duration: 0.4s;
      transition-property: all;
      transition-timing-function: line;
 }
-
-
 td {
      display: flex;    
      align-items: center; /* Alinea verticalmente los elementos */
      gap: 10px; /* Espacio entre los elementos */
 }
-
 .item1 {
      line-height: 19px;
      text-align: justify;
      flex-grow: 1; /* Ocupa el espacio disponible */
 }
-
 .item2 img {
      width: 60px;
      padding-right: 8px; /* Mantiene el tamaño de la imagen */
 }
-
-
 footer {     
      position: relative;    
      font-size: small;
