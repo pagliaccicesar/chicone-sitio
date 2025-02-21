@@ -142,8 +142,8 @@ td {
      gap: 10px; /* Espacio entre los elementos */
 }
 .item1 {
-     line-height: 19px;
-     text-align: justify;
+     line-height: 19px;    
+     text-align: left;
      flex-grow: 1; /* Ocupa el espacio disponible */
 }
 .item2 img {
@@ -164,6 +164,12 @@ footer .contact-link {
 footer .contact-link:hover {
      color: #FB667A;
 }
+@media (max-width: 1111px) {
+     .item1, .item2 {
+          font-size: 0.85rem;
+     }     
+}
+
 @media (max-width: 800px) {
 .container td:nth-child(4),
 .container th:nth-child(4) { display: none; }
@@ -189,7 +195,7 @@ footer .contact-link:hover {
 }
 @media (max-width: 500px) {          
      .item1, .item2 {
-          font-size: 0.9rem;
+          font-size: 0.8rem;
      }
      footer {
           padding-top: 10px;
